@@ -1,0 +1,140 @@
+.upperFormHead{
+    background-color: rgb(57, 100, 100);
+    height: 40px;
+    color: white;
+    padding: 7px;
+}
+.upperFormHead h2{
+    margin: 5px;
+}
+
+.heading{
+    font-size: 20px;
+    float: left;
+    /* border: 3px solid red; */
+}
+.buttonsHeader{
+    float: right;
+    /* border: 3px solid green; */
+    padding: 7px;
+}
+button{
+    background-color: rgb(56, 105, 151);
+    width: 70px;
+    height: 26px;
+    color: white;
+}
+.clearfix{
+    clear: both;
+}
+
+.upperForm{
+    /* border: 4px solid green; */
+    margin: 5px;
+}
+
+.marginRight{
+    margin-right: 80px;
+}
+
+.marginRight2{
+    margin-right: 10px;
+}
+
+.lowerForm{
+    height: 600px;
+    width: 98%;
+    /* border: 10px solid red; */
+}
+
+.lowerRightForm{
+    /* border: 4px solid blue; */
+    float: left;
+    height: 500px;
+    width: 45%;
+}
+.lowerLeftForm{
+    /* border: 4px solid yellow; */
+    height: 550px;
+    width: 50%;
+    float:left;
+    margin-left: 10px;
+}
+
+.leftTableHeader{
+    background-color: rgb(57, 100, 100);
+}
+
+thead{
+    border: 0px;
+    background-color: rgb(57, 100, 100);
+    color: white;
+    font-size: 15px;
+    border-spacing: 15px;
+}
+
+.btn1{
+    margin: 5px 5px;
+}
+
+.leftSide{
+    float: left;
+    height: 270px;
+    /* border: 10px solid red; */
+    width: 270px;
+
+}
+
+.rightSide{
+    float: left;
+    height: 270px;
+    /* border: 10px solid red; */
+    width: 300px;
+}
+
+.lowerLeftSide{
+    float: left;
+    /* border: 2px solid black; */
+    height: 150px;
+    width: 200px;
+}
+
+.lowerMiddleSide{
+    float: left;
+    /* border: 2px solid black; */
+    height: 150px;
+    width: 200px;
+}
+
+.lowerRightSide{
+    float: left;
+    /* border: 2px solid black; */
+    height: 150px;
+    width: 190px;
+}
+
+.extraSpace{
+    margin-top: 80px;
+    width: 540px;
+    height: 200px;
+    /* border: 4px solid red; */
+}
+
+.submitButtons{
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.submitBtn{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+.btn11{
+    background-color: rgb(70, 170, 95);
+}
+
+.btn12{
+    background-color: orangered;
+}

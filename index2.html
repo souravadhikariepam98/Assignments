@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Page`SA`</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="upperForm">
+        <div class="upperFormHead">
+            <div class="heading">Sales Form</div>
+            <div class="buttonsHeader">
+                <button>New</button>
+                <button>Return</button>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="upperForm">
+            <label for="salesType">Sales Type</label>
+            <input type="text" id="salesType" class="marginRight">
+            <label for="salesPersonName">Sales Person Name</label>
+            <input type="text" id="salesPersonName" class="marginRight"> 
+            <label for="discountType">Disc % Type</label>
+            <select name="discountTypeValues" id="discountType" class="marginRight">
+                <option value="regular">Regular</option>
+                <option value="upper">Upper</option>
+                <option value="lower">Lower</option>
+            </select> 
+            <label for="gstType">GST Type</label>     
+            <select name="gstTypeValues" id="gstType" class="marginRight">
+                <option value="Intra-State">Intra-State GST</option>
+                <option value="Inter-State">Inter-State GST</option>
+            </select> 
+            <br><br>
+            <label for="contactNo">Contact No</label>
+            <input type="number" id="contactNo" class="marginRight">
+            <label for="customerName">Customer Name</label>
+            <select name="customerName" id="customerName" class="marginRight">
+                <option value="Cash Bill">Regular</option>
+            </select>  
+            <label for="nname">Name</label>
+            <input type="text" name="nname" id="nname" class="marginRight2">
+            <label for="gstType">GST Type</label>     
+            <select name="gstTypeValues" id="gstType" class="marginRight2">
+                <option value="Intra-State">Intra-State GST</option>
+                <option value="Inter-State">Inter-State GST</option>
+            </select> 
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+        </div>
+    </div>
+    <div class="lowerForm">
+        <div class="lowerRightForm">
+            <table >
+                <thead class="leftTableHeader">
+                    <th>Item Code</th>
+                    <th>Item Name</th>
+                    <th>Qty</th>
+                    <th>UOM</th>
+                    <th>Rate</th>
+                    <th>Disc %</th>
+                    <th>Disc</th> 
+                    <th>GST%</th>
+                    <th>CGST</th>
+                    <th>SGST</th>
+                    <th>Amount</th>
+                </thead>
+                <tbody class="leftTableBody">
+                    <tr>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 40px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 40px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                        <td style="width: 30px;">
+                            <input type="text" style="width: 30px;">
+                        </td>
+                    </tr>
+                </tbody>
+                
+            </table>
+            <button class="btn1" type="submit">+ Add </button>
+            <div class="extraSpace">
+            </div>
+            <div class="submitButtons">
+                <button class="submitBtn btn11">Submit</button>
+                <button class="submitBtn btn12">Cancel</button>           
+            </div>
+        </div>
+        <div class="lowerLeftForm">
+            <div class="upperFormHead">
+                <div class="heading">Sales Info</div>
+            </div>
+            <div class="leftSide">
+                <form action="">
+                    <label for="subTotal">Sub Total</label>
+                    <input type="number" id="subTotal">
+                    <br><br>
+                    <label for="discount">Discount</label>
+                    <input type="number" id="discount">
+                    <br><br>
+                    <label for="totalTax">Total Tax</label>
+                    <input type="number" id="totalTax">
+                    <br> <br>
+                    <label for="returnId">Sales Return ID</label>
+                    <select name="returnIds" id="returnId">
+                        <Option value="Select">Select</Option>
+                    </select>
+                    <br><br>
+                    <label for="roundOff">Round Off</label>
+                    <input type="number" id="roundOff">
+                    <br><br>
+                    <label for="grandTotal">Grand Total</label>
+                    <input type="number" id="grandTotal">
+                    <br><br>
+                    <label for="balToRcv">Bal To Rcv</label>
+                    <input type="number" id="balToRcv">
+                </form>
+
+            </div>
+            <div class="rightSide">
+                <form action="">
+                    <label for="distAmount">Discount Amount</label>
+                    <input type="number" id="distAmount">
+                    <br><br>
+                    <label for="subToAfterDis">Sub Tot After Dis</label>
+                    <input type="number" id="subToAfterDis">
+                    <br><br>
+                    <label for="totValAfterTax">Tot Val After Tax</label>
+                    <input type="number" id="totValAfterTax">
+                    <br> <br>
+                    <label for="salesRetAmt">Sales Ret Amt</label>
+                    <input type="number" id="salesRetAmt">
+                    <br><br>
+                    <label for="extraCharges">Extra Charges</label>
+                    <input type="number" id="Extra Charges">
+                    <br><br>
+                    <label for="totAmntRcvd">Tot Amnt Rcvd</label>
+                    <input type="number" id="totAmntRcvd">
+                    <br><br>
+                    <label for="balToCst">Bal To Custmr</label>
+                    <input type="number" id="balToCst">
+                </form>
+            </div>
+            <div class="clearfix">
+            </div>
+            <div class="upperFormHead">
+                <label for="">Card</label>
+                <input type="checkbox" style="margin-right: 50px;">
+                <label for="">Cheque</label>
+                <input type="checkbox" style="margin-right: 50px;">
+                <label for="">Voucher</label>
+                <input type="checkbox" style="margin-right: 50px;">
+                <label for="">Cash</label>
+                <input type="checkbox" style="margin-right: 50px;">
+            </div>
+            <div class="lowerLeftSide">
+                <form action="">
+                    <label for="cardAmt">Card Amt</label>
+                    <input type="number" id="cardAmt" style="width: 70px; margin-top: 6px;"><br>
+                    <label for="chequeAmt">Cheque Amt</label>
+                    <input type="number" id="chequeAmt" style="width: 70px; margin-top: 6px;"><br>
+                    <label for="voucherAmt">Voucher Amt</label>
+                    <input type="number" id="voucherAmt" style="width: 70px; margin-top: 6px;"><br>
+                    <label for="counterAmt">Counter Amt</label>
+                    <input type="number" id="counterAmt" style="width: 70px; margin-top: 6px;"><br>
+                </form>
+            </div>
+            <div class="lowerMiddleSide">
+                <label for="bank1">Bank</label>
+                <select name="bank" id="bank1">
+                    <option value="Select">Select</option>
+                </select><br><br>
+                <label for="bank2">Bank</label>
+                <select name="bank" id="bank2">
+                    <option value="Select">Select</option>
+                </select><br> <br>
+                <label for="bank3">Bank</label>
+                <select name="bank" id="bank3">
+                    <option value="Select">Select</option>
+                </select><br><br>
+                <label for="cash">Cash</label>
+                <input type="number" style="width: 90px;">
+            </div>
+            <div class="lowerRightSide">
+                <form action="">
+                    <label for="cardDet">Card Dtls</label>
+                    <input type="number" id="cardDet" style="width: 70px; margin-top: 6px;"><br><br>
+                    <label for="chequeDet">Cheque Dtls</label>
+                    <input type="number" id="chequeDet" style="width: 70px; margin-top: 6px;"><br><br>
+                    <label for="voucherDet">Voucher Dtls</label>
+                    <input type="number" id="voucherDet" style="width: 70px; margin-top: 6px;"><br><br>
+                </form>
+            </div>
+            <div class="clearfix"></div>            
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</body>
+</html>
