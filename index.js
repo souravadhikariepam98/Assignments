@@ -3,22 +3,35 @@ submitButton.addEventListener("click", myFunction);
 function myFunction() {
     const contactNo=document.getElementById('contactNo').value;
     const salesPersonName=document.getElementById('salesPersonName').value;
-    let isValid=true;
+    let isValid1=true;
+    let isValid2=true;
     if(contactNo.length===10)
-        isValid=true;
+        isValid1=true;
     else
-        isValid=false;
+        isValid1=false;
     
-    if(salesPersonName.length===0 && isValid)
-        isValid=false;
-    else if(isValid)
-        isValid=true;
+    if(salesPersonName.length===0)
+        isValid2=false;
+    else
+        isValid2=true;
 
-    if(isValid){
-        alert("Form Submitted Sucessfully!!!");
+    if(isValid1 && isValid2){
+        alert("Form Submitted Sucessfully...");
+        document.getElementById('contactNo').value="";
+        document.getElementById('salesPersonName').value="";
+        document.getElementById('contactNo').style.backgroundColor="white";
+        document.getElementById('salesPersonName').style.backgroundColor="white";
     }else{
-        alert("Error in contact no or name");
+        if(!isValid1 && !isValid2){
+            document.getElementById('contactNo').style.backgroundColor="red";
+            document.getElementById('salesPersonName').style.backgroundColor="red";
+            alert("check name and contact!!!");
+        }else if(!isValid1){
+            document.getElementById('contactNo').style.backgroundColor="red";
+            alert("Check contact!!!");
+        }else{  
+            document.getElementById("salesPersonName").style.backgroundColor="red";
+            alert("Check Name!!!");
+        }
     }
-    document.getElementById('contactNo').value="";
-    document.getElementById('salesPersonName').value="";
 }
