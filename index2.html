@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sales Page`SA`</title>
     <link rel="stylesheet" href="style2.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     <div class="upperForm">
@@ -18,37 +19,39 @@
             <div class="clearfix"></div>
         </div>
         <div class="upperForm">
-            <label for="salesType">Sales Type</label>
-            <input type="text" id="salesType" class="marginRight">
-            <label for="salesPersonName">Sales Person Name</label>
-            <input type="text" id="salesPersonName" class="marginRight"> 
-            <label for="discountType">Disc % Type</label>
-            <select name="discountTypeValues" id="discountType" class="marginRight">
-                <option value="regular">Regular</option>
-                <option value="upper">Upper</option>
-                <option value="lower">Lower</option>
-            </select> 
-            <label for="gstType">GST Type</label>     
-            <select name="gstTypeValues" id="gstType" class="marginRight">
-                <option value="Intra-State">Intra-State GST</option>
-                <option value="Inter-State">Inter-State GST</option>
-            </select> 
-            <br><br>
-            <label for="contactNo">Contact No</label>
-            <input type="number" id="contactNo" class="marginRight">
-            <label for="customerName">Customer Name</label>
-            <select name="customerName" id="customerName" class="marginRight">
-                <option value="Cash Bill">Regular</option>
-            </select>  
-            <label for="nname">Name</label>
-            <input type="text" name="nname" id="nname" class="marginRight2">
-            <label for="gstType">GST Type</label>     
-            <select name="gstTypeValues" id="gstType" class="marginRight2">
-                <option value="Intra-State">Intra-State GST</option>
-                <option value="Inter-State">Inter-State GST</option>
-            </select> 
-            <label for="date">Date</label>
-            <input type="date" name="date" id="date">
+            <form action="" id="myForm1" name="myForm1">
+                <label for="salesType">Sales Type</label>
+                <input type="text" id="salesType" class="marginRight">
+                <label for="salesPersonName">Sales Person Name</label>
+                <input type="text" id="salesPersonName" class="marginRight"> 
+                <label for="discountType">Disc % Type</label>
+                <select name="discountTypeValues" id="discountType" class="marginRight">
+                    <option value="regular">Regular</option>
+                    <option value="upper">Upper</option>
+                    <option value="lower">Lower</option>
+                </select> 
+                <label for="gstType">GST Type</label>     
+                <select name="gstTypeValues" id="gstType" class="marginRight">
+                    <option value="Intra-State">Intra-State GST</option>
+                    <option value="Inter-State">Inter-State GST</option>
+                </select> 
+                <br><br>
+                <label for="contactNo">Contact No</label>
+                <input type="number" id="contactNo" class="marginRight">
+                <label for="customerName">Customer Name</label>
+                <select name="customerName" id="customerName" class="marginRight">
+                    <option value="Cash Bill">Regular</option>
+                </select>  
+                <label for="nname">Name</label>
+                <input type="text" name="nname" id="nname" class="marginRight2">
+                <label for="gstType">GST Type</label>     
+                <select name="gstTypeValues" id="gstType" class="marginRight2">
+                    <option value="Intra-State">Intra-State GST</option>
+                    <option value="Inter-State">Inter-State GST</option>
+                </select> 
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+            </form>
         </div>
     </div>
     <div class="lowerForm">
@@ -145,8 +148,8 @@
             <div class="extraSpace">
             </div>
             <div class="submitButtons">
-                <button class="submitBtn btn11">Submit</button>
-                <button class="submitBtn btn12">Cancel</button>           
+                <button type="submit" class="submitBtn btn11">Submit</button>
+                <button type="submit" class="submitBtn btn12">Cancel</button>           
             </div>
         </div>
         <div class="lowerLeftForm">
