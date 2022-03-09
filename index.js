@@ -23,14 +23,14 @@ function myFunction() {
         document.getElementById('salesPersonName').style.backgroundColor="white";
     }else{
         if(!isValid1 && !isValid2){
-            document.getElementById('contactNo').style.backgroundColor="red";
-            document.getElementById('salesPersonName').style.backgroundColor="red";
+            document.getElementById('contactNo').style.backgroundColor="rgb(255, 209, 216)";
+            document.getElementById('salesPersonName').style.backgroundColor="rgb(255, 209, 216)";
             alert("check name and contact!!!");
         }else if(!isValid1){
-            document.getElementById('contactNo').style.backgroundColor="red";
+            document.getElementById('contactNo').style.backgroundColor="rgb(255, 209, 216)";
             alert("Check contact!!!");
         }else{  
-            document.getElementById("salesPersonName").style.backgroundColor="red";
+            document.getElementById("salesPersonName").style.backgroundColor="rgb(255, 209, 216)";
             alert("Check Name!!!");
         }
     }
